@@ -1,0 +1,199 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Header section start */
+header{
+    width: 82%;
+    margin: 50px auto;
+}
+
+.header-artical-container{
+    display: flex;
+    padding-left: 8%;
+    padding-top: 20px;
+    background-color: #161616;
+    border-radius: 30px;
+}
+
+.header-ar1{
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.the-greatest-h1{
+    
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    line-height: 80px;
+}
+
+.header-p{
+    line-height: 25px;
+    margin-top: 20px;
+    color: white;
+}
+
+.watch-btn{
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    color: white;
+    background-color: #DD0000;
+    border: none;
+    border-radius: 5px;
+}
+
+
+.header-ar2 img{
+    height: 600px;
+    position: relative;
+    top: 35px;
+    left: 30px;
+}
+
+
+
+/* Header section end */
+
+/* Match section start */
+
+.match-section{
+    width: 82%;
+    margin: 50px auto;
+    display: flex;
+    gap: 20px;
+    padding-bottom: 100px;
+}
+
+.uab-sec{
+    height: 230px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #161616;
+    border-radius: 10px;
+}
+
+.uni-uab{
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 5px;
+    color: #161616;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 20px;
+    font-weight: bold;
+    width: 210px;
+    border-radius: 10px;
+}
+
+.blog{
+    background-color: #DD0000;
+    color: white;
+}
+
+/* card section start */
+
+.card{
+    margin-top: 10px;
+}
+
+.trans-sec{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.card-body{
+    padding-left: 15px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom: 0.2px solid rgb(209, 202, 202);
+    border-left: 0.2px solid rgb(209, 202, 202);
+    border-right: 0.2px solid rgb(209, 202, 202);
+}
+
+.tr-btn{
+    text-align: center;
+    padding: 5px 5px;
+    margin-top: 10px;
+    width: 100px;
+    border: 1px solid rgb(10, 10, 10);
+    border-radius: 5px;
+    font-weight: bold;
+    color: #444444;
+}
+
+.card-body p{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #161616;
+    font-weight: bold;
+}
+
+.fa-clock, .fa-message{
+    font-size: 17px;
+    color: gray;
+}
+
+.time{
+    margin-left: 5px;
+    color: gray;
+}
+
+.fa-message{
+    margin-left: 20px;
+    color: gray;
+}
+
+.msg{
+    margin-left: 5px;
+    color: gray;
+}
+
+
+/* Footer section start */
+
+
+footer{
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #161616;
+}
+
+.footer-heading{
+    color: white;
+    margin-bottom: 50px;
+}
+
+.ftr-hr{
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    color: gray;
+}
+footer ul{
+    display: flex;
+    justify-content: center;
+}
+
+footer ul li{
+    color: gray;
+    list-style: none;
+    margin-left: 30px;
+}
+
+footer p{
+    margin-top: 50px;
+    color: white;
+}
+/* Footer sectin end */
